@@ -1,7 +1,9 @@
 
+import java.util.Scanner;
 public class TestePontoFlutuante {
 	public static void main (String[]args) {
-		double salario = 2100.50;
+		Scanner entrada = new Scanner(System.in);
+		double salario = entrada.nextDouble();
 		System.out.println(salario);
 	}
 }
